@@ -35,14 +35,14 @@ const emit = defineEmits(['go-to-auth', 'go-back', 'start-reading'])
         />
 
         <div class="comic-details-info">
-          <p class="comic-details-label">Trending #{{ comic.rank }}</p>
+          <p class="comic-details-label">
+            {{ comic.issue }} · Trending #{{ comic.rank }}
+          </p>
 
           <h2>{{ comic.title }}</h2>
 
           <p>
-            This comic was loaded from the Internet Archive API. For this demo,
-            KineticCore will open a limited reading preview with static and
-            dynamic reading modes.
+            {{ comic.description }}
           </p>
 
           <button class="read-button" @click="emit('start-reading', comic)">

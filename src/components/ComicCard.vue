@@ -26,5 +26,13 @@ const emit = defineEmits(['select-comic'])
     <h3 class="comic-title">
       {{ comic.title }}
     </h3>
+
+    <p class="comic-card-publisher">
+      {{ comic.publisher }}
+    </p>
+
+    <p class="comic-card-issue">
+      {{ comic.issue }}
+    </p>
   </article>
 </template>

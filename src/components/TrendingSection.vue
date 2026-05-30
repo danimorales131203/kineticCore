@@ -1,7 +1,7 @@
 <script setup>
 import { onMounted, ref } from 'vue'
 import ComicCard from './ComicCard.vue'
-import { getTrendingComics } from '../services/internetArchiveApi.js'
+import { getComics } from '../services/comicApi.js'
 
 const emit = defineEmits(['select-comic'])
 
@@ -11,9 +11,9 @@ const errorMessage = ref('')
 
 onMounted(async () => {
   try {
-    comics.value = await getTrendingComics()
+    comics.value = await getComics()
   } catch (error) {
-    errorMessage.value = 'Could not load trending comics'
+    errorMessage.value = 'Could not load comics'
   } finally {
     isLoading.value = false
   }
@@ -24,7 +24,7 @@ onMounted(async () => {
   <section class="trending-section">
     <h2>Trending</h2>
 
-    <p v-if="isLoading">Searching readable comics...</p>
+    <p v-if="isLoading">Loading comics...</p>
 
     <p v-else-if="errorMessage">{{ errorMessage }}</p>
 
@@ -37,4 +37,4 @@ onMounted(async () => {
       />
     </div>
   </section>
-</template>
+</template> 

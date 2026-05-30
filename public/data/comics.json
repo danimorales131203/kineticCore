@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "title": "Batman: The Long Halloween",
+    "issue": "#1",
+    "publisher": "DC Comics",
+    "description": "A costumed hero learning he can trust no one. A serial killer isng the holidays to mark his handiwork. A crime lord trying to hold onto a crumbling empire. A city beset by gangsters becoming a haven for freaks. An honest district attorney hiding a terrible secret. A dark woman tempting the dark knight detective.",
+    "cover": "/kineticCore/comicDB/comic_1/cover1.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_1/page1.png",
+      "/kineticCore/comicDB/comic_1/page2.png",
+      "/kineticCore/comicDB/comic_1/page3.png",
+      "/kineticCore/comicDB/comic_1/page4.png",
+      "/kineticCore/comicDB/comic_1/page5.png",
+      "/kineticCore/comicDB/comic_1/page6.png",
+      "/kineticCore/comicDB/comic_1/page7.png",
+      "/kineticCore/comicDB/comic_1/page8.png",
+      "/kineticCore/comicDB/comic_1/page9.png"
+    ]
+  }
+]

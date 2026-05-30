@@ -352,6 +352,13 @@ body {
   overflow: hidden;
 }
 
+.comic-card-publisher {
+  margin: 4px 0 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--orange);
+}
+
 .comic-cover {
   width: 100%;
   height: 100%;
