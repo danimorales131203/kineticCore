@@ -12,7 +12,14 @@ defineProps({
   }
 })
 
-const emit = defineEmits(['go-to-auth', 'go-back', 'start-reading'])
+const emit = defineEmits([
+  'go-to-auth',
+  'go-to-landing',
+  'go-to-dashboard',
+  'go-to-my-comics',
+  'go-back',
+  'start-reading'
+])
 </script>
 
 <template>
@@ -20,6 +27,9 @@ const emit = defineEmits(['go-to-auth', 'go-back', 'start-reading'])
     <AppHeader
       :user="user"
       @go-to-auth="emit('go-to-auth')"
+      @go-to-landing="emit('go-to-landing')"
+      @go-to-dashboard="emit('go-to-dashboard')"
+      @go-to-my-comics="emit('go-to-my-comics')"
     />
 
     <section class="comic-details-content">
@@ -36,16 +46,23 @@ const emit = defineEmits(['go-to-auth', 'go-back', 'start-reading'])
 
         <div class="comic-details-info">
           <p class="comic-details-label">
-            {{ comic.issue }} · Trending #{{ comic.rank }}
+            {{ comic.issue }}
           </p>
 
           <h2>{{ comic.title }}</h2>
+
+          <p class="comic-publisher">
+            {{ comic.publisher }}
+          </p>
 
           <p>
             {{ comic.description }}
           </p>
 
-          <button class="read-button" @click="emit('start-reading', comic)">
+          <button
+            class="read-button"
+            @click="emit('start-reading', comic)"
+          >
             Read
           </button>
         </div>

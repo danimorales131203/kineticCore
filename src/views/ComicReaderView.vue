@@ -13,7 +13,13 @@ const props = defineProps({
   }
 })
 
-const emit = defineEmits(['go-to-auth', 'go-back'])
+const emit = defineEmits([
+  'go-to-auth',
+  'go-to-landing',
+  'go-to-dashboard',
+  'go-to-my-comics',
+  'go-back'
+])
 
 const currentPage = ref(0)
 const readingMode = ref('static')
@@ -39,6 +45,9 @@ function previousPage() {
     <AppHeader
       :user="user"
       @go-to-auth="emit('go-to-auth')"
+      @go-to-landing="emit('go-to-landing')"
+      @go-to-dashboard="emit('go-to-dashboard')"
+      @go-to-my-comics="emit('go-to-my-comics')"
     />
 
     <section class="comic-reader-layout">

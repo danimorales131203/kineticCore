@@ -1,7 +1,5 @@
 <script setup>
 import AppHeader from '../components/AppHeader.vue'
-import HeroCarousel from '../components/HeroCarousel.vue'
-import BrowseButton from '../components/BrowseButton.vue'
 
 defineProps({
   user: {
@@ -19,7 +17,7 @@ const emit = defineEmits([
 </script>
 
 <template>
-  <main class="landing-page">
+  <main class="my-comics-page">
     <AppHeader
       :user="user"
       @go-to-auth="emit('go-to-auth')"
@@ -28,9 +26,15 @@ const emit = defineEmits([
       @go-to-my-comics="emit('go-to-my-comics')"
     />
 
-    <section class="landing-content">
-      <HeroCarousel />
-      <BrowseButton @browse="emit('go-to-dashboard')" />
+    <section class="my-comics-content">
+      <h2>My Comics</h2>
+
+      <div class="my-comics-placeholder">
+        <p>
+          Here users will be able to upload JPG pages and create their own
+          digital comics.
+        </p>
+      </div>
     </section>
   </main>
 </template>
