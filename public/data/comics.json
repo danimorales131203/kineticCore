@@ -4,7 +4,7 @@
     "title": "Batman: The Long Halloween",
     "issue": "#01",
     "publisher": "DC Comics",
-    "description": "A costumed hero learning he can trust no one. A serial killer isng the holidays to mark his handiwork. A crime lord trying to hold onto a crumbling empire. A city beset by gangsters becoming a haven for freaks. An honest district attorney hiding a terrible secret. A dark woman tempting the dark knight detective.",
+    "description": "A costumed hero learning he can trust no one. A serial killer using the holidays to mark his handiwork. A crime lord trying to hold onto a crumbling empire. A city beset by gangsters becoming a haven for freaks. An honest district attorney hiding a terrible secret. A dark woman tempting the dark knight detective.",
     "cover": "/kineticCore/comicDB/comic_1/cover1.png",
     "pages": [
       "/kineticCore/comicDB/comic_1/page1.png",
@@ -54,6 +54,25 @@
       "/kineticCore/comicDB/comic_3/page7.png",
       "/kineticCore/comicDB/comic_3/page8.png",
       "/kineticCore/comicDB/comic_3/page9.png"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Watchmen",
+    "issue": "#01",
+    "publisher": "DC Comics",
+    "description": "Watchmen, the groundbreaking series from award-winning author Alan Moore and Dave Gibbons, presents a world where the mere presence of American superheroes changed history—the U.S. won the Vietnam War, Nixon is still president, and the Cold War is in full effect.",
+    "cover": "/kineticCore/comicDB/comic_4/cover4.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_4/page1.png",
+      "/kineticCore/comicDB/comic_4/page2.png",
+      "/kineticCore/comicDB/comic_4/page3.png",
+      "/kineticCore/comicDB/comic_4/page4.png",
+      "/kineticCore/comicDB/comic_4/page5.png",
+      "/kineticCore/comicDB/comic_4/page6.png",
+      "/kineticCore/comicDB/comic_4/page7.png",
+      "/kineticCore/comicDB/comic_4/page8.png",
+      "/kineticCore/comicDB/comic_4/page9.png"
     ]
   }
   

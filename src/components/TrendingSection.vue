@@ -11,7 +11,15 @@ const errorMessage = ref('')
 
 onMounted(async () => {
   try {
-    comics.value = await getComics()
+    const allComics = await getComics()
+
+    comics.value = allComics
+      .sort(() => Math.random() - 0.5)
+      .slice(0, 4)
+      .map((comic, index) => ({
+        ...comic,
+        rank: index + 1
+      }))
   } catch (error) {
     errorMessage.value = 'Could not load comics'
   } finally {
@@ -33,8 +41,9 @@ onMounted(async () => {
         v-for="comic in comics"
         :key="comic.id"
         :comic="comic"
+        :show-rank="true"
         @select-comic="emit('select-comic', comic)"
       />
     </div>
   </section>
-</template> 
+</template>

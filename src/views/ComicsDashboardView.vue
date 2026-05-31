@@ -1,6 +1,7 @@
 <script setup>
 import AppHeader from '../components/AppHeader.vue'
 import TrendingSection from '../components/TrendingSection.vue'
+import PublisherSection from '../components/PublisherSection.vue'
 
 defineProps({
   user: {
@@ -21,6 +22,8 @@ const emit = defineEmits(['go-to-auth', 'select-comic'])
 
     <section class="dashboard-content">
       <TrendingSection @select-comic="emit('select-comic', $event)" />
+
+      <PublisherSection @select-comic="emit('select-comic', $event)" />
     </section>
   </main>
 </template>

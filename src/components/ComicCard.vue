@@ -3,6 +3,10 @@ defineProps({
   comic: {
     type: Object,
     required: true
+  },
+  showRank: {
+    type: Boolean,
+    default: false
   }
 })
 
@@ -10,11 +14,21 @@ const emit = defineEmits(['select-comic'])
 </script>
 
 <template>
-  <article class="comic-card" @click="emit('select-comic', comic)">
+  <article
+    class="comic-card"
+    @click="emit('select-comic', comic)"
+  >
     <div class="comic-cover-wrapper">
-      <img class="comic-cover" :src="comic.cover" :alt="comic.title" />
+      <img
+        class="comic-cover"
+        :src="comic.cover"
+        :alt="comic.title"
+      />
 
-      <span class="comic-rank">
+      <span
+        v-if="showRank"
+        class="comic-rank"
+      >
         {{ comic.rank }}
       </span>
 
