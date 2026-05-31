@@ -2,7 +2,7 @@
   {
     "id": "1",
     "title": "Batman: The Long Halloween",
-    "issue": "#1",
+    "issue": "#01",
     "publisher": "DC Comics",
     "description": "A costumed hero learning he can trust no one. A serial killer isng the holidays to mark his handiwork. A crime lord trying to hold onto a crumbling empire. A city beset by gangsters becoming a haven for freaks. An honest district attorney hiding a terrible secret. A dark woman tempting the dark knight detective.",
     "cover": "/kineticCore/comicDB/comic_1/cover1.png",
@@ -17,5 +17,46 @@
       "/kineticCore/comicDB/comic_1/page8.png",
       "/kineticCore/comicDB/comic_1/page9.png"
     ]
+  },
+  {
+    "id": "2",
+    "title": "All-New Spiderman",
+    "issue": "#03",
+    "publisher": "Marvel Comics",
+    "description": "Months ago, before the original Spider-Man died, grade-schooler Miles Morales was about to star a new chapter in his life in a new school--when he was suddenly bitten by a stolen, genetically altered spider that gave him incredible arachnid-like powers.",
+    "cover": "/kineticCore/comicDB/comic_2/cover2.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_2/page1.png",
+      "/kineticCore/comicDB/comic_2/page2.png",
+      "/kineticCore/comicDB/comic_2/page3.png",
+      "/kineticCore/comicDB/comic_2/page4.png",
+      "/kineticCore/comicDB/comic_2/page5.png",
+      "/kineticCore/comicDB/comic_2/page6.png",
+      "/kineticCore/comicDB/comic_2/page7.png",
+      "/kineticCore/comicDB/comic_2/page8.png",
+      "/kineticCore/comicDB/comic_2/page9.png"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Superman-The Doomsday Wars",
+    "issue": "#01",
+    "publisher": "DC Comics",
+    "description": "He thought the terror was finally over. SUPERMAN had imprisoned his most formidable enemy, DOOMSDAY, at the end of time. But now, the murderous juggernaut has returned to Earth more powerful than ever. Even the mighty Justice League stands powerless against him. Will Superman forsake a promise to save the infant son of his oldest friend in order to join battle?",
+    "cover": "/kineticCore/comicDB/comic_3/cover3.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_3/page1.png",
+      "/kineticCore/comicDB/comic_3/page2.png",
+      "/kineticCore/comicDB/comic_3/page3.png",
+      "/kineticCore/comicDB/comic_3/page4.png",
+      "/kineticCore/comicDB/comic_3/page5.png",
+      "/kineticCore/comicDB/comic_3/page6.png",
+      "/kineticCore/comicDB/comic_3/page7.png",
+      "/kineticCore/comicDB/comic_3/page8.png",
+      "/kineticCore/comicDB/comic_3/page9.png"
+    ]
   }
+  
+
+  
 ]
