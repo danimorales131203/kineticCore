@@ -864,3 +864,371 @@ body {
   font-weight: 600;
   text-align: center;
 }
+
+/* ==========================================
+   MY COMICS
+========================================== */
+
+
+
+.library-title {
+  font-family: 'Bangers', cursive;
+  font-size: 56px;
+  margin-bottom: 32px;
+}
+
+.my-comics-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(auto-fill, minmax(220px, 1fr));
+
+  gap: 32px;
+
+  min-height: 350px;
+}
+
+.add-comic-container {
+  display: flex;
+  justify-content: flex-end;
+
+  margin-top: 64px;
+}
+
+.add-comic-button {
+  min-width: 260px;
+
+  padding: 18px 42px;
+
+  border: none;
+  border-radius: 999px;
+
+  background: #d9d9d9;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.add-comic-button:hover {
+  transform: scale(1.03);
+}
+
+
+
+
+.file-drop-area input {
+  display: none;
+}
+
+.file-info {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+
+
+.form-row {
+  width: min(100%, 1100px);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.form-row input,
+.add-comic-form select {
+  height: 56px;
+  padding: 0 24px;
+  border: 2px solid var(--black);
+  background: #d9d9d9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+.form-row input:first-child {
+  border-radius: 999px 0 0 999px;
+}
+
+.form-row input:last-child {
+  border-radius: 0 999px 999px 0;
+}
+
+.add-comic-form select {
+  width: min(100%, 760px);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.start-conversion-button {
+  margin-top: 22px;
+  padding: 14px 42px;
+  border: none;
+  border-radius: 999px;
+  background: #d9d9d9;
+  color: var(--black);
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.start-conversion-button:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 700px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .form-row input:first-child,
+  .form-row input:last-child {
+    border-radius: 999px;
+  }
+}
+
+/* ================================
+   MY COMICS
+================================ */
+
+.my-comics-page {
+  min-height: 100vh;
+  background: var(--white);
+}
+
+.my-comics-content {
+  padding: 48px;
+}
+
+.library-title {
+  margin: 0 0 28px;
+  font-family: 'Bangers', cursive;
+  font-size: 64px;
+  letter-spacing: 2px;
+  color: var(--black);
+  text-shadow: 3px 3px 0 var(--cyan);
+}
+
+.my-comics-grid {
+  min-height: 340px;
+  padding: 36px;
+  border: 5px solid var(--black);
+  background: #f2f2f2;
+  box-shadow: 10px 10px 0 var(--orange);
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 32px;
+}
+
+
+
+.add-comic-container {
+  margin-top: 64px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.add-comic-button {
+  min-width: 260px;
+  padding: 16px 42px;
+  border: 5px solid var(--black);
+  border-radius: 999px;
+  background: var(--orange);
+  color: var(--white);
+  box-shadow: 7px 7px 0 var(--black);
+
+  font-family: 'Bangers', cursive;
+  font-size: 38px;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.add-comic-button:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 3px 3px 0 var(--black);
+}
+
+/* ================================
+   ADD COMIC
+================================ */
+
+.add-comic-page {
+  min-height: 100vh;
+  background: var(--white);
+}
+
+.add-comic-content {
+  padding: 44px 60px 90px;
+}
+
+.file-drop-area {
+  width: min(100%, 1180px);
+  min-height: 300px;
+  margin: 0 auto 36px;
+  padding: 36px;
+
+  background: var(--orange);
+  border: 6px solid var(--black);
+  box-shadow: 12px 12px 0 var(--cyan);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+}
+
+.file-drop-area input {
+  display: none;
+}
+
+.file-drop-area span {
+  font-family: 'Bangers', cursive;
+  font-size: 64px;
+  letter-spacing: 2px;
+  text-shadow: 4px 4px 0 var(--black);
+}
+
+.file-drop-area::after {
+  content: 'Upload cover first, then comic pages';
+  margin-top: 12px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.file-info {
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 auto 28px;
+  padding: 10px 22px;
+  border: 3px solid var(--black);
+  border-radius: 999px;
+  background: var(--cyan);
+  color: var(--black);
+  font-weight: 800;
+}
+
+.add-comic-form {
+  width: min(100%, 1100px);
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.form-row {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.form-row input,
+.add-comic-form select {
+  height: 58px;
+  padding: 0 24px;
+  border: 4px solid var(--black);
+  border-radius: 999px;
+  background: var(--white);
+  color: var(--black);
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+}
+
+.form-row input:focus,
+.add-comic-form select:focus {
+  box-shadow: 0 0 0 4px var(--cyan);
+}
+
+.add-comic-form select {
+  width: min(100%, 560px);
+  cursor: pointer;
+}
+
+.start-conversion-button {
+  margin-top: 16px;
+  padding: 16px 44px;
+  border: 5px solid var(--black);
+  border-radius: 999px;
+  background: var(--cyan);
+  color: var(--black);
+  box-shadow: 7px 7px 0 var(--black);
+
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  letter-spacing: 1px;
+
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.start-conversion-button:hover {
+  transform: translate(4px, 4px);
+  box-shadow: 3px 3px 0 var(--black);
+}
+
+@media (max-width: 700px) {
+  .my-comics-content,
+  .add-comic-content {
+    padding: 28px 20px 70px;
+  }
+
+  .library-title {
+    font-size: 48px;
+  }
+
+  .file-drop-area span {
+    font-size: 48px;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .add-comic-container {
+    justify-content: center;
+  }
+}
+
+.comic-description-input {
+  width: min(100%, 760px);
+  min-height: 140px;
+  padding: 20px 24px;
+  border: 4px solid var(--black);
+  border-radius: 24px;
+  background: var(--white);
+  color: var(--black);
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  resize: vertical;
+  outline: none;
+}
+
+.comic-description-input:focus {
+  box-shadow: 0 0 0 4px var(--cyan);
+}
+
+.empty-library-message {
+  color: #777;
+  font-weight: 700;
+  font-size: 18px;
+}

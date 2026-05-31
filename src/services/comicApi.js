@@ -7,8 +7,10 @@ export async function getComics() {
 
   const comics = await response.json()
 
-  return comics.map((comic, index) => ({
-    ...comic,
-    rank: index + 1
-  }))
+  return comics
+    .filter((comic) => !comic.hidden)
+    .map((comic, index) => ({
+      ...comic,
+      rank: index + 1
+    }))
 }

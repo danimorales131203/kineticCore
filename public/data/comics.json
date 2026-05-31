@@ -74,6 +74,26 @@
       "/kineticCore/comicDB/comic_4/page8.png",
       "/kineticCore/comicDB/comic_4/page9.png"
     ]
+  },
+  {
+    "id": "8",
+    "title": "Invincible",
+    "issue": "#01",
+    "publisher": "Image Comics",
+    "hidden": true,
+    "description": "Invincible, the groundbreaking series from award-winning author Robert Kirkman and Cory Walker, presents a world where the mere presence of American superheroes changed history—the U.S. won the Vietnam War, Nixon is still president, and the Cold War is in full effect.",
+    "cover": "/kineticCore/comicDB/comic_8/cover8.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_8/page1.png",
+      "/kineticCore/comicDB/comic_8/page2.png",
+      "/kineticCore/comicDB/comic_8/page3.png",
+      "/kineticCore/comicDB/comic_8/page4.png",
+      "/kineticCore/comicDB/comic_8/page5.png",
+      "/kineticCore/comicDB/comic_8/page6.png",
+      "/kineticCore/comicDB/comic_8/page7.png",
+      "/kineticCore/comicDB/comic_8/page8.png",
+      "/kineticCore/comicDB/comic_8/page9.png"
+    ]
   }
   
 

@@ -7,6 +7,7 @@ import ComicsDashboardView from './views/ComicsDashboardView.vue'
 import ComicDetailsView from './views/ComicDetailsView.vue'
 import ComicReaderView from './views/ComicReaderView.vue'
 import MyComicsView from './views/MyComicsView.vue'
+import AddComicView from './views/AddComicView.vue'
 
 const currentView = ref('landing')
 
@@ -16,6 +17,7 @@ const user = ref({
 })
 
 const selectedComic = ref(null)
+const userComics = ref([])
 
 function goToAuth() {
   currentView.value = 'auth'
@@ -31,6 +33,10 @@ function goToDashboard() {
 
 function goToMyComics() {
   currentView.value = 'myComics'
+}
+
+function goToAddComic() {
+  currentView.value = 'addComic'
 }
 
 function handleEmailSubmit() {
@@ -50,6 +56,11 @@ function selectComic(comic) {
 function startReading(comic) {
   selectedComic.value = comic
   currentView.value = 'comicReader'
+}
+
+function createUserComic(comic) {
+  userComics.value.push(comic)
+  currentView.value = 'myComics'
 }
 </script>
 
@@ -109,9 +120,22 @@ function startReading(comic) {
   <MyComicsView
     v-if="currentView === 'myComics'"
     :user="user"
+    :user-comics="userComics"
     @go-to-auth="goToAuth"
     @go-to-landing="goToLanding"
     @go-to-dashboard="goToDashboard"
     @go-to-my-comics="goToMyComics"
+    @go-to-add-comic="goToAddComic"
+    @select-comic="selectComic"
+  />
+
+  <AddComicView
+    v-if="currentView === 'addComic'"
+    :user="user"
+    @go-to-auth="goToAuth"
+    @go-to-landing="goToLanding"
+    @go-to-dashboard="goToDashboard"
+    @go-to-my-comics="goToMyComics"
+    @create-user-comic="createUserComic"
   />
 </template>

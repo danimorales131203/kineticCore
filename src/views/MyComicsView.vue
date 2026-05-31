@@ -1,9 +1,15 @@
 <script setup>
 import AppHeader from '../components/AppHeader.vue'
+import DashboardFooter from '../components/DashboardFooter.vue'
+import ComicCard from '../components/ComicCard.vue'
 
 defineProps({
   user: {
     type: Object,
+    required: true
+  },
+  userComics: {
+    type: Array,
     required: true
   }
 })
@@ -12,7 +18,9 @@ const emit = defineEmits([
   'go-to-auth',
   'go-to-landing',
   'go-to-dashboard',
-  'go-to-my-comics'
+  'go-to-my-comics',
+  'go-to-add-comic',
+  'select-comic'
 ])
 </script>
 
@@ -27,14 +35,34 @@ const emit = defineEmits([
     />
 
     <section class="my-comics-content">
-      <h2>My Comics</h2>
+      <h2 class="library-title">
+        Librarie
+      </h2>
 
-      <div class="my-comics-placeholder">
-        <p>
-          Here users will be able to upload JPG pages and create their own
-          digital comics.
+      <div class="my-comics-grid">
+        <p v-if="userComics.length === 0" class="empty-library-message">
+          Your uploaded comics will appear here.
         </p>
+
+        <ComicCard
+          v-for="comic in userComics"
+          v-else
+          :key="comic.id"
+          :comic="comic"
+          @select-comic="emit('select-comic', comic)"
+        />
+      </div>
+
+      <div class="add-comic-container">
+        <button
+          class="add-comic-button"
+          @click="emit('go-to-add-comic')"
+        >
+          Add Comic
+        </button>
       </div>
     </section>
+
+    <DashboardFooter />
   </main>
 </template>
