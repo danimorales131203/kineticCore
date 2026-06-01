@@ -20,8 +20,29 @@ body {
 }
 
 .landing-page {
+  position: relative;
   min-height: 100vh;
   background: var(--white);
+  overflow: hidden;
+}
+
+.landing-page::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+
+  background-image: url('/kineticCore/landingBackground/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 0.18;
+  z-index: 0;
+}
+
+.landing-page > * {
+  position: relative;
+  z-index: 1;
 }
 
 .app-header {
@@ -79,56 +100,18 @@ body {
 }
 
 .landing-content {
-  padding: 32px;
+  padding: 80px 32px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 72px;
 }
 
-.hero-carousel {
-  width: min(100%, 1100px);
-  height: 360px;
-  padding: 40px;
-  background: var(--dark);
-  border: 5px solid var(--black);
-  box-shadow: 10px 10px 0 var(--orange);
 
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
-.slide-content h2 {
-  margin: 0;
-  font-family: 'Bangers', cursive;
-  font-size: 64px;
-  letter-spacing: 2px;
-  color: var(--white);
-  text-shadow: 4px 4px 0 var(--orange);
-}
 
-.slide-content p {
-  margin-top: 12px;
-  max-width: 520px;
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--cyan);
-}
 
-.carousel-dots {
-  display: flex;
-  justify-content: center;
-  gap: 22px;
-}
 
-.carousel-dots span {
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: var(--white);
-  border: 3px solid var(--black);
-}
 
 .browse-button {
   min-width: 220px;
@@ -166,18 +149,8 @@ body {
     font-size: 14px;
   }
 
-  .hero-carousel {
-    height: 300px;
-    padding: 28px;
-  }
 
-  .slide-content h2 {
-    font-size: 44px;
-  }
 
-  .slide-content p {
-    font-size: 16px;
-  }
 }
 
 
@@ -1421,4 +1394,60 @@ body {
 .reader-animation-controls select:disabled {
   opacity: 0.45;
   cursor: not-allowed;
+}
+
+.hero-carousel {
+  position: relative;
+  width: min(100%, 1100px);
+  height: 360px;
+  background: var(--dark);
+  border: 5px solid var(--black);
+  box-shadow: 10px 10px 0 var(--orange);
+  overflow: hidden;
+}
+
+.hero-slide-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+  animation: heroImageFade 0.45s ease;
+}
+
+.carousel-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 28px;
+  transform: translateX(-50%);
+
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+}
+
+.carousel-dot {
+  width: 18px;
+  height: 18px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--white);
+  border: 3px solid var(--black);
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  background: var(--cyan);
+}
+
+@keyframes heroImageFade {
+  from {
+    opacity: 0;
+    transform: scale(1.03);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
