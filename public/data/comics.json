@@ -75,6 +75,59 @@
       "/kineticCore/comicDB/comic_4/page9.png"
     ]
   },
+
+  {
+    "id": "5",
+    "title": "Invincible 02",
+    "issue": "#02",
+    "publisher": "Image Comics",
+    "description": "Seven-year-old Mark Grayson learns from his father, Omni-Man (Nolan Grayson), that he is a Viltrumite alien.  Nolan explains his mission to protect Earth and reveals that Mark will likely develop superpowers when he reaches puberty.",
+    "cover": "/kineticCore/comicDB/comic_5/cover5.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_5/page1.png",
+      "/kineticCore/comicDB/comic_5/page2.png",
+      "/kineticCore/comicDB/comic_5/page3.png",
+      "/kineticCore/comicDB/comic_5/page4.png",
+      "/kineticCore/comicDB/comic_5/page5.png",
+      "/kineticCore/comicDB/comic_5/page6.png",
+      "/kineticCore/comicDB/comic_5/page7.png",
+      "/kineticCore/comicDB/comic_5/page8.png",
+      "/kineticCore/comicDB/comic_5/page9.png"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Invincible 03",
+    "issue": "#03",
+    "publisher": "Image Comics",
+    "description": "Mark Grayson as he quits his job at Burger Mart and patrols the city with his father, Nolan (Omni-Man). The duo battles an invasion of Flaxans, alien conquerors who age rapidly on Earth, and discovers one of the missing high school students in Lakeside Mall with a bomb strapped to his chest.",
+    "cover": "/kineticCore/comicDB/comic_6/cover6.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_6/page1.png",
+      "/kineticCore/comicDB/comic_6/page2.png",
+      "/kineticCore/comicDB/comic_6/page3.png",
+      "/kineticCore/comicDB/comic_6/page4.png",
+      "/kineticCore/comicDB/comic_6/page5.png",
+      "/kineticCore/comicDB/comic_6/page6.png",
+      "/kineticCore/comicDB/comic_6/page7.png",
+      "/kineticCore/comicDB/comic_6/page8.png"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Invincible 04",
+    "issue": "#04",
+    "publisher": "Image Comics",
+    "description": "Mark Grayson and Atom Eve investigating a series of human bombs at his high school.  Robot identifies their teacher, David Hiles, as the culprit, revealing he is a former GlobalTech engineer seeking revenge for his son's suicide.",
+    "cover": "/kineticCore/comicDB/comic_7/cover7.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_7/page1.png",
+      "/kineticCore/comicDB/comic_7/page2.png",
+      "/kineticCore/comicDB/comic_7/page3.png",
+      "/kineticCore/comicDB/comic_7/page4.png"
+    ]
+  },
+
   {
     "id": "8",
     "title": "Invincible",
