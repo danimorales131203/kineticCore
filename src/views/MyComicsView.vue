@@ -36,7 +36,7 @@ const emit = defineEmits([
 
     <section class="my-comics-content">
       <h2 class="library-title">
-        Librarie
+        Library
       </h2>
 
       <div class="my-comics-grid">

@@ -1,0 +1,154 @@
+[
+  {
+    "id": "1",
+    "title": "Batman: The Long Halloween",
+    "issue": "#01",
+    "publisher": "DC Comics",
+    "description": "A costumed hero learning he can trust no one. A serial killer using the holidays to mark his handiwork. A crime lord trying to hold onto a crumbling empire. A city beset by gangsters becoming a haven for freaks. An honest district attorney hiding a terrible secret. A dark woman tempting the dark knight detective.",
+    "cover": "/kineticCore/comicDB/comic_1/cover1.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_1/page1.png",
+      "/kineticCore/comicDB/comic_1/page2.png",
+      "/kineticCore/comicDB/comic_1/page3.png",
+      "/kineticCore/comicDB/comic_1/page4.png",
+      "/kineticCore/comicDB/comic_1/page5.png",
+      "/kineticCore/comicDB/comic_1/page6.png",
+      "/kineticCore/comicDB/comic_1/page7.png",
+      "/kineticCore/comicDB/comic_1/page8.png",
+      "/kineticCore/comicDB/comic_1/page9.png"
+    ]
+  },
+  {
+    "id": "2",
+    "title": "All-New Spiderman",
+    "issue": "#03",
+    "publisher": "Marvel Comics",
+    "description": "Months ago, before the original Spider-Man died, grade-schooler Miles Morales was about to star a new chapter in his life in a new school--when he was suddenly bitten by a stolen, genetically altered spider that gave him incredible arachnid-like powers.",
+    "cover": "/kineticCore/comicDB/comic_2/cover2.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_2/page1.png",
+      "/kineticCore/comicDB/comic_2/page2.png",
+      "/kineticCore/comicDB/comic_2/page3.png",
+      "/kineticCore/comicDB/comic_2/page4.png",
+      "/kineticCore/comicDB/comic_2/page5.png",
+      "/kineticCore/comicDB/comic_2/page6.png",
+      "/kineticCore/comicDB/comic_2/page7.png",
+      "/kineticCore/comicDB/comic_2/page8.png",
+      "/kineticCore/comicDB/comic_2/page9.png"
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Superman-The Doomsday Wars",
+    "issue": "#01",
+    "publisher": "DC Comics",
+    "description": "He thought the terror was finally over. SUPERMAN had imprisoned his most formidable enemy, DOOMSDAY, at the end of time. But now, the murderous juggernaut has returned to Earth more powerful than ever. Even the mighty Justice League stands powerless against him. Will Superman forsake a promise to save the infant son of his oldest friend in order to join battle?",
+    "cover": "/kineticCore/comicDB/comic_3/cover3.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_3/page1.png",
+      "/kineticCore/comicDB/comic_3/page2.png",
+      "/kineticCore/comicDB/comic_3/page3.png",
+      "/kineticCore/comicDB/comic_3/page4.png",
+      "/kineticCore/comicDB/comic_3/page5.png",
+      "/kineticCore/comicDB/comic_3/page6.png",
+      "/kineticCore/comicDB/comic_3/page7.png",
+      "/kineticCore/comicDB/comic_3/page8.png",
+      "/kineticCore/comicDB/comic_3/page9.png"
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Watchmen",
+    "issue": "#01",
+    "publisher": "DC Comics",
+    "description": "Watchmen, the groundbreaking series from award-winning author Alan Moore and Dave Gibbons, presents a world where the mere presence of American superheroes changed history—the U.S. won the Vietnam War, Nixon is still president, and the Cold War is in full effect.",
+    "cover": "/kineticCore/comicDB/comic_4/cover4.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_4/page1.png",
+      "/kineticCore/comicDB/comic_4/page2.png",
+      "/kineticCore/comicDB/comic_4/page3.png",
+      "/kineticCore/comicDB/comic_4/page4.png",
+      "/kineticCore/comicDB/comic_4/page5.png",
+      "/kineticCore/comicDB/comic_4/page6.png",
+      "/kineticCore/comicDB/comic_4/page7.png",
+      "/kineticCore/comicDB/comic_4/page8.png",
+      "/kineticCore/comicDB/comic_4/page9.png"
+    ]
+  },
+
+  {
+    "id": "5",
+    "title": "Invincible 02",
+    "issue": "#02",
+    "publisher": "Image Comics",
+    "description": "Seven-year-old Mark Grayson learns from his father, Omni-Man (Nolan Grayson), that he is a Viltrumite alien.  Nolan explains his mission to protect Earth and reveals that Mark will likely develop superpowers when he reaches puberty.",
+    "cover": "/kineticCore/comicDB/comic_5/cover5.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_5/page1.png",
+      "/kineticCore/comicDB/comic_5/page2.png",
+      "/kineticCore/comicDB/comic_5/page3.png",
+      "/kineticCore/comicDB/comic_5/page4.png",
+      "/kineticCore/comicDB/comic_5/page5.png",
+      "/kineticCore/comicDB/comic_5/page6.png",
+      "/kineticCore/comicDB/comic_5/page7.png",
+      "/kineticCore/comicDB/comic_5/page8.png",
+      "/kineticCore/comicDB/comic_5/page9.png"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Invincible 03",
+    "issue": "#03",
+    "publisher": "Image Comics",
+    "description": "Mark Grayson as he quits his job at Burger Mart and patrols the city with his father, Nolan (Omni-Man). The duo battles an invasion of Flaxans, alien conquerors who age rapidly on Earth, and discovers one of the missing high school students in Lakeside Mall with a bomb strapped to his chest.",
+    "cover": "/kineticCore/comicDB/comic_6/cover6.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_6/page1.png",
+      "/kineticCore/comicDB/comic_6/page2.png",
+      "/kineticCore/comicDB/comic_6/page3.png",
+      "/kineticCore/comicDB/comic_6/page4.png",
+      "/kineticCore/comicDB/comic_6/page5.png",
+      "/kineticCore/comicDB/comic_6/page6.png",
+      "/kineticCore/comicDB/comic_6/page7.png",
+      "/kineticCore/comicDB/comic_6/page8.png"
+    ]
+  },
+  {
+    "id": "7",
+    "title": "Invincible 04",
+    "issue": "#04",
+    "publisher": "Image Comics",
+    "description": "Mark Grayson and Atom Eve investigating a series of human bombs at his high school.  Robot identifies their teacher, David Hiles, as the culprit, revealing he is a former GlobalTech engineer seeking revenge for his son's suicide.",
+    "cover": "/kineticCore/comicDB/comic_7/cover7.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_7/page1.png",
+      "/kineticCore/comicDB/comic_7/page2.png",
+      "/kineticCore/comicDB/comic_7/page3.png",
+      "/kineticCore/comicDB/comic_7/page4.png"
+    ]
+  },
+
+  {
+    "id": "8",
+    "title": "Invincible",
+    "issue": "#01",
+    "publisher": "Image Comics",
+    "hidden": true,
+    "description": "Invincible, the groundbreaking series from award-winning author Robert Kirkman and Cory Walker, presents a world where the mere presence of American superheroes changed history—the U.S. won the Vietnam War, Nixon is still president, and the Cold War is in full effect.",
+    "cover": "/kineticCore/comicDB/comic_8/cover8.png",
+    "pages": [
+      "/kineticCore/comicDB/comic_8/page1.png",
+      "/kineticCore/comicDB/comic_8/page2.png",
+      "/kineticCore/comicDB/comic_8/page3.png",
+      "/kineticCore/comicDB/comic_8/page4.png",
+      "/kineticCore/comicDB/comic_8/page5.png",
+      "/kineticCore/comicDB/comic_8/page6.png",
+      "/kineticCore/comicDB/comic_8/page7.png",
+      "/kineticCore/comicDB/comic_8/page8.png",
+      "/kineticCore/comicDB/comic_8/page9.png"
+    ]
+  }
+  
+
+  
+]
